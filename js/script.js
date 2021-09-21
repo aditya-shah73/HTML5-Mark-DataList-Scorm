@@ -49,3 +49,14 @@ function setMark1Value(id){
 function setMark2Value(id){
 	document.getElementById('company-name').innerHTML=document.getElementById(id).value;
 }
+
+function submitQuestion4(){
+	window.location.href = "survey.html";	  	
+}
+
+function resetQuestion4(){
+	document.getElementById('q4option1').checked=false;
+	document.getElementById('q4option2').checked=false;
+	document.getElementById('q4option3').checked=false;
+	document.getElementById('q4option4').checked=false;
+}

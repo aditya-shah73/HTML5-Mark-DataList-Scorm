@@ -108,6 +108,35 @@ a{
 	margin-right: 10px;
 }
 
+/* Styling for Question 4 */
+.question4-container{
+	background-color: lightgrey;
+	margin-top: 12%;
+	margin-left: 20%;
+	margin-right: 16%;
+	width: 60%;
+	height: 350px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+}
+
+.question4-content{
+	float: left;
+	height: 238px;
+	width: 45%;
+	margin-top: 60px;
+	margin-left: 35px;
+}
+
+.question4-video-container{
+	float: right;
+	width: 33%;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
 .buttons-container{
 	float: left;
 	margin-left: 20%;

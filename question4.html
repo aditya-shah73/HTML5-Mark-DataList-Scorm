@@ -8,7 +8,39 @@
 </head>
 
 <body>
-    <h1>Question 4</h1>
+	<h1>Question 4</h1>
+	<div class="question4-container">
+		<div class="question4-content">
+			<h4>Wath the video and answer the following question. What is the source as mentioned in the video?</h4>
+			<table>
+				<tr>
+					<td><input type="radio" name="answer" id="q4option1">
+						NASA.Gov
+					</td>
+					<td><input type="radio" name="answer" id="q4option2">
+						Data.gov
+					</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="answer" id="q4option3">
+						Facebook
+					</td>
+					<td><input type="radio" name="answer" id="q4option4">
+						XYZ.net
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="question4-video-container">
+			<video poster="images/video_thumbnail.png" width="100%" height="inherit" controls="true" preload="auto">
+				<source src="videos/expedition_40_undocks_ending_mission.mp4" type="video/mp4" />
+			</video>
+		</div>
+		<div class="buttons-container">
+			<button class="next-button" onclick="submitQuestion4()">Submit and Next Question</button>
+			<button class="clear-button" onclick="resetQuestion4()">Cancel and Clear Selection</button>
+		</div>
+	</div>
 </body>
 
 </html>
