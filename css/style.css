@@ -24,7 +24,7 @@ a{
 	opacity: 0.8;
 }
 
-#error-message {
+#error-message{
 	color: red;
 	display: none;
 }
@@ -137,6 +137,62 @@ a{
 	margin-right: 10px;
 }
 
+/* Styling for the Survey */
+.survey-container{
+	background-color: lightgrey;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 16%;
+	width: 60%;
+	height: 380px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+#survey-header {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.comments-container{
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+textarea{
+	margin-left: 30px;
+	width:90%;
+	height:100px;
+}
+
+.location-container{
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+	height: 85px;
+}
+
+.location-container p{
+	margin-top: 0px;	
+}
+
+#location-text{
+	float: left;
+}
+
+.location-dropdown{
+	margin-left: 30px;
+	margin-right: 40px;
+	float: left;
+}
+
+.survey-buttons-container{
+	float: left;
+	margin-left: 25%;
+	margin-right: 20%;
+}
+
 .buttons-container{
 	float: left;
 	margin-left: 20%;
@@ -156,4 +212,3 @@ a{
 	color: white;
 	height: 35px;
 }
-

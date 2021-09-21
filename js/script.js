@@ -60,3 +60,11 @@ function resetQuestion4(){
 	document.getElementById('q4option3').checked=false;
 	document.getElementById('q4option4').checked=false;
 }
+
+function submitSurvey(){
+	window.location.href = "summary.html";	  	
+}
+
+function skipSurvey(){
+	window.location.href = "summary.html";	
+}

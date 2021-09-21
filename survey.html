@@ -9,6 +9,41 @@
 
 <body>
     <h1>Survey</h1>
+    <div class="survey-container">
+        <h4 id="survey-header">How did you like the center?</h4>
+        <div class="comments-container">
+            <p>Comments:</p>
+            <textarea></textarea>
+        </div>
+        <div class="location-container">
+            <p>Select Test Area Location:</p>
+            <div class="location-content">
+                <p id="location-text">City: </p>
+                <input list="city" name="city" autocomplete="off" class="location-dropdown">
+                <datalist id="city">
+                    <option value="San Jose">
+                    <option value="Sunnyvale">
+                    <option value="Mountain View">
+                    <option value="Palo Alto">
+                    <option value="San Francisco">
+                </datalist>
+
+                <p id="location-text">Room Number:</p>
+                <input list="room-number" name="room-number" autocomplete="off" class="location-dropdown">
+                <datalist id="room-number">
+                    <option value="Room 101">
+                    <option value="Room 102">
+                    <option value="Room 103">
+                    <option value="Room 104">
+                    <option value="Room 105">
+                </datalist>
+            </div>
+        </div>
+        <div class="survey-buttons-container">
+            <button class="next-button" onclick="submitSurvey()">Submit and Get Score</button>
+            <button class="clear-button" onclick="skipSurvey()">Skip and Get Score</button>
+        </div>
+    </div>
 </body>
 
 </html>
