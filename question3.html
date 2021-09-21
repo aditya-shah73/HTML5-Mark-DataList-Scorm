@@ -9,6 +9,50 @@
 
 <body>
 	<h1>Question 3</h1>
+	<div class="question3-container">
+		<div class="question3-content">
+			<h4>As per the latest twitter news, complete the article snippet given by selecting appropriate choices for
+				the blanks.</h4>
+			<table>
+				<tr>
+					<td><input type="radio" value="650" name="first-option" id="q3option1m1" onclick="setMark1Value('q3option1m1')">
+						Option 1 Mark 1: $650
+					</td>
+					<td><input type="radio" value="Twitter" name="second-option" id="q3option1m2" onclick="setMark2Value('q3option1m2')">
+						Option 1 Mark 2: Twitter
+					</td>
+				</tr>
+				<tr>
+					<td><input type="radio" value="550" name="first-option" id="q3option2m1" onclick="setMark1Value('q3option2m1')">
+						Option 2 Mark 1: $550
+					</td>
+					<td><input type="radio" value="Google" name="second-option" id="q3option2m2" onclick="setMark2Value('q3option2m2')">
+						Option 2 Mark 2: Google
+					</td>
+				</tr>
+				<tr>
+					<td><input type="radio" value="650" name="first-option" id="q3option3m1" onclick="setMark1Value('q3option3m1')">
+						Option 3 Mark 1: $650
+					</td>
+					<td><input type="radio" value="Facebook" name="second-option" id="q3option3m2" onclick="setMark2Value('q3option3m2')">
+						Option 3 Mark 2: Facebook
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="question3-text-container">
+			<p>
+				Twitter wants more cash. The company announced two <mark id="price">$______</mark> million debt
+				offerings in a filing today. each with a potential $100 increase provided that the sales are
+				oversubscribed. Assuming full tip. including the $100 million boosters 
+				<mark id="company-name">_____________</mark> will raise up to $1.5 billion with the two offerings.
+			</p>
+		</div>
+		<div class="buttons-container">
+			<button class="next-button" onclick="submitQuestion3()">Submit and Next Question</button>
+			<button class="clear-button" onclick="resetQuestion3()">Cancel and Clear Selection</button>
+		</div>
+	</div>
 </body>
 
 </html>

@@ -51,7 +51,14 @@ a{
 	margin-left: 35px;
 }
 
-/* Styling for Question 1 */
+.question1-image-container{
+	float: right;
+	width: 33%;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+/* Styling for Question 2 */
 .question2-container{
 	background-color: lightgrey;
 	margin-top: 12%;
@@ -70,6 +77,35 @@ a{
 	width: 70%;
 	margin-top: 60px;
 	margin-left: 60px;
+}
+
+/* Styling for Question 3 */
+.question3-container{
+	background-color: lightgrey;
+	margin-top: 12%;
+	margin-left: 20%;
+	margin-right: 16%;
+	width: 60%;
+	height: 350px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+}
+
+.question3-content{
+	float: left;
+	height: 238px;
+	width: 45%;
+	margin-top: 60px;
+	margin-left: 35px;
+}
+
+.question3-text-container{
+	float: right;
+	width: 33%;
+	margin-top: 20px;
+	margin-right: 10px;
 }
 
 .buttons-container{
@@ -92,9 +128,3 @@ a{
 	height: 35px;
 }
 
-.image-container{
-	float: right;
-	width: 33%;
-	margin-top: 20px;
-	margin-right: 10px;
-}
