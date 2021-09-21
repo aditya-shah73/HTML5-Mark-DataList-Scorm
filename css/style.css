@@ -2,21 +2,99 @@ h3{
 	text-align: center;
 }
 
+h1{
+	text-align: center;
+}
+
 a{
 	margin-right:10px;
 }
 
-.login{
+/* Styling for User Login */
+.user-login-container{
 	margin: auto;
-	height: 150px;
+	height: 165px;
 	width: 300px;
 	margin-left: 40%;
-	margin-top: 20%;
+	margin-top: 18%;
 	background-color: lightgrey;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
 	opacity: 0.8;
 }
 
-#error-message  {
+#error-message {
 	color: red;
 	display: none;
+}
+
+/* Styling for Question 1 */
+.question1-container{
+	background-color: lightgrey;
+	margin-top: 12%;
+	margin-left: 20%;
+	margin-right: 16%;
+	width: 60%;
+	height: 350px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+}
+
+.question1-content{
+	float: left;
+	height: 238px;
+	width: 45%;
+	margin-top: 60px;
+	margin-left: 35px;
+}
+
+/* Styling for Question 1 */
+.question2-container{
+	background-color: lightgrey;
+	margin-top: 12%;
+	margin-left: 20%;
+	margin-right: 16%;
+	width: 60%;
+	height: 350px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+
+}
+
+.question2-content{
+	height: 238px;
+	width: 70%;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.buttons-container{
+	float: left;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.next-button{
+	margin-left: 50px;
+	background-color: darkgreen;
+	color: white;
+	height: 35px;
+}
+
+.clear-button{
+	margin-left: 50px;
+	background-color: darkred;
+	color: white;
+	height: 35px;
+}
+
+.image-container{
+	float: right;
+	width: 33%;
+	margin-top: 20px;
+	margin-right: 10px;
 }
