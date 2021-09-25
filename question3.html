@@ -15,26 +15,26 @@
 				the blanks.</h4>
 			<table>
 				<tr>
-					<td><input type="radio" value="650" name="first-option" id="q3option1m1" onclick="setMark1Value('q3option1m1')">
+					<td id="o1mark1" class="mark1" ><input type="radio" value="650" name="first-option" id="q3option1m1" onclick="setMark1Value('q3option1m1')">
 						Option 1 Mark 1: $650
 					</td>
-					<td><input type="radio" value="Twitter" name="second-option" id="q3option1m2" onclick="setMark2Value('q3option1m2')">
+					<td id="o1mark2" class="mark2"><input type="radio" value="Twitter" name="second-option"  id="q3option1m2" onclick="setMark2Value('q3option1m2')">
 						Option 1 Mark 2: Twitter
 					</td>
 				</tr>
 				<tr>
-					<td><input type="radio" value="550" name="first-option" id="q3option2m1" onclick="setMark1Value('q3option2m1')">
+					<td id="o2mark1" class="mark1"><input type="radio" value="550" name="first-option" id="q3option2m1" onclick="setMark1Value('q3option2m1')">
 						Option 2 Mark 1: $550
 					</td>
-					<td><input type="radio" value="Google" name="second-option" id="q3option2m2" onclick="setMark2Value('q3option2m2')">
+					<td id="o2mark2" class="mark2"><input type="radio" value="Google" name="second-option" id="q3option2m2" onclick="setMark2Value('q3option2m2')">
 						Option 2 Mark 2: Google
 					</td>
 				</tr>
 				<tr>
-					<td><input type="radio" value="650" name="first-option" id="q3option3m1" onclick="setMark1Value('q3option3m1')">
+					<td id="o3mark1" class="mark1"><input type="radio" value="650" name="first-option" id="q3option3m1" onclick="setMark1Value('q3option3m1')">
 						Option 3 Mark 1: $650
 					</td>
-					<td><input type="radio" value="Facebook" name="second-option" id="q3option3m2" onclick="setMark2Value('q3option3m2')">
+					<td id="o3mark2" class="mark2"><input type="radio" value="Facebook" name="second-option" id="q3option3m2" onclick="setMark2Value('q3option3m2')">
 						Option 3 Mark 2: Facebook
 					</td>
 				</tr>
@@ -42,10 +42,10 @@
 		</div>
 		<div class="question3-text-container">
 			<p>
-				Twitter wants more cash. The company announced two <mark id="price">$______</mark> million debt
+				Twitter wants more cash. The company announced two <mark id="price" onclick="showMark1()">$______</mark> million debt
 				offerings in a filing today. each with a potential $100 increase provided that the sales are
 				oversubscribed. Assuming full tip. including the $100 million boosters 
-				<mark id="company-name">_____________</mark> will raise up to $1.5 billion with the two offerings.
+				<mark id="company-name" onclick="showMark2()">_____________</mark> will raise up to $1.5 billion with the two offerings.
 			</p>
 		</div>
 		<div class="buttons-container">

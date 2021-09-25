@@ -108,6 +108,24 @@ a{
 	margin-right: 10px;
 }
 
+#price:hover{
+	cursor: pointer;
+}
+
+#company-name:hover{
+	cursor: pointer;
+}
+
+.mark1{
+	display:none;
+	float:left;
+}
+
+.mark2{
+	display:none;
+	margin-left:240px;
+}
+
 /* Styling for Question 4 */
 .question4-container{
 	background-color: lightgrey;
