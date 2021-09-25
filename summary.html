@@ -8,7 +8,34 @@
 </head>
 
 <body>
-    <h1>Summary</h1>
+    <h1>Score Card</h1>
+    <div class="summary-container">
+		<div class="summary-content">
+            <details>
+				<summary class="summary-results">Quantative Section</summary>
+				<p id="quantQuestions">Number of Questions Answered:</p>
+				<p id="quantCorrectAnswers">Number of Correct Answers:</p>
+				<p id="quantScore">Score:</p>
+			</details>
+			<br>
+			<details>
+				<summary class="summary-results">Reading Section</summary>
+				<p id="readingQuestions">Number of Questions Answered:</p>
+				<p id="readingCorrectAnswers">Number of Correct Answers:</p>
+				<p id="readingScore">Score:</p>
+			</details>
+			<br>
+			<details>
+				<summary class="summary-results">Audio/Video Section</summary>
+				<p id="avQuestions">Number of Questions Answered:</p>
+				<p id="avCorrectAnswers">Number of Correct Answers:</p>
+				<p id="avScore">Score:</p>
+			</details>
+			<br>
+		<div class="summary-buttons-container">
+			<button class="finish-button" onclick="finishQuiz()">Finish</button>
+		</div>
+	</div>
 </body>
 
 </html>

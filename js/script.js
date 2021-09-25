@@ -68,3 +68,7 @@ function submitSurvey(){
 function skipSurvey(){
 	window.location.href = "summary.html";	
 }
+
+function finishQuiz(){
+	window.alert("Thank you!!");
+}
